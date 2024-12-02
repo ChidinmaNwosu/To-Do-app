@@ -26,8 +26,10 @@ function addTask(event) {
   deleteButton.textContent = "Delete";
   deleteButton.addEventListener("click", () => {
     taskList.removeChild(taskItem);
+    alert("Task successfully deleted!");
   });
   taskItem.appendChild(deleteButton);
+  alert("Task successfully added!");
 
   // Append the new list item to the task list
   taskList.appendChild(taskItem);
