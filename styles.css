@@ -85,3 +85,18 @@ button:hover {
   li button:hover {
     background-color: darkred;
   }
+
+  @media screen and (max-width: 768px) {
+    .container {
+        width: fit-content;
+        height: auto;
+       
+    }
+   form{
+        flex-direction: column;
+        padding: 20px;
+        width: 1005;
+
+    }
+
+ }
